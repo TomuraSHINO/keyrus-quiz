@@ -1,8 +1,7 @@
 public class Produto  {
   int id;
   int quantidade;
- 
- int preco;
+  int preco;
   int resultado;
 
   public Produto(int id, int quantidade, int preco) {
