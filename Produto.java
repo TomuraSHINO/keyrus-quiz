@@ -1,7 +1,6 @@
 public class Produto  {
   int id;
   int quantidade;
-  boolean disponivel;
   int preco;
   int resultado;
 
