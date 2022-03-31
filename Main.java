@@ -25,6 +25,10 @@ class Main {
       }
     }
 
+    if(carrinho > 200) {
+      carrinho*= 0.9;
+    }
+
     System.out.println(carrinho);
 
    //DANIEL ROCHA XAVIER 
