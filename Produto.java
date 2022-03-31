@@ -1,6 +1,7 @@
 public class Produto  {
   int id;
   int quantidade;
+  boolean disponivel = false;
   int preco;
   int resultado;
 
@@ -15,6 +16,9 @@ public class Produto  {
       preco*= 1.07;
     }
     resultado = quantidade * preco;
+    if (resultado == 0) {
+      id*=0;
+    }
     return resultado;
   }
 }

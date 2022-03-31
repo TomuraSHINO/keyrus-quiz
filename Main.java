@@ -18,7 +18,8 @@ class Main {
 
     for(Produto produto : produtos){
       if(produto.id == 1) {
-        carrinho+= 15;
+        carrinho+= 15; 
+        break;
       }else {
         carrinho+= 5;
       }
@@ -26,6 +27,6 @@ class Main {
 
     System.out.println(carrinho);
 
-   //DANIEL ROCHA XAVIER 
+   //DANIEL ROCHA XAVIER 21472367
   }
 }
